@@ -6,22 +6,28 @@
     
 }
 
+body {
+    background-color: aliceblue;
+}
+
 header {
 background-color: rgb(140, 140, 140);
-box-shadow: 3px 3px 5px rgb(36, 36, 36) ;
+box-shadow: 3px 3px 5px rgb(36, 36, 36);
+
 }
 
 .container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding: 15px 100px;
 }
 
 .header {
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-padding: 15px 100px;
+
 align-items: center;
 }
 
@@ -36,12 +42,13 @@ align-items: center;
     border: 2px solid  rgb(36, 36, 36) ;
     border-radius: 4px;
     padding: 5px;
+    font-size: 30px;
 
 }
 
 .nav {
     display: flex;
-    gap: 30px;
+    gap: 70px;
     font-size: 24px;
 }
 
@@ -54,8 +61,87 @@ align-items: center;
 .nav a:hover {
     color: rgb(142, 120, 0);
     transform: scale(1.2);
+
 }
 
 .logo:hover{
     transform: scale(1.2);
+}
+
+
+.main_section {
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+    margin-top: 15px;
+    padding-bottom:30px;
+}
+
+
+
+
+
+.Media {
+    position: relative;
+}
+
+.Media img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(36, 36, 36);
+}
+
+.Media button{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    padding: 5px 10px;
+    font-size: 25px;
+    background-color: rgb(140, 140, 140);
+    border-radius: 10px;
+    color: gold;
+    transition: .2s;
+    cursor: pointer;
+}
+
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgb(36, 36, 36);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+span {
+    color: gold;
+    font-size: 40px;
+    background-color: rgb(36, 36, 36);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+
+
+.Media button:hover {
+    transform: scale(1.2);
+    background-color: gold;
+    color: rgb(140, 140, 140);
+    
+}
+
+
+.text p{
+    font-size: 18px;
 }
