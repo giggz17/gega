@@ -5,3 +5,57 @@
     text-decoration: none;
     
 }
+
+header {
+background-color: rgb(140, 140, 140);
+box-shadow: 3px 3px 5px rgb(36, 36, 36) ;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 15px 100px;
+align-items: center;
+}
+
+.logo {
+    transition: 0.2s;
+}
+
+.logo a {
+    color: gold;
+    font-weight: 900;
+    background-color: rgb(100, 100, 100);
+    border: 2px solid  rgb(36, 36, 36) ;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+}
+
+.nav a {
+    color: gold;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.nav a:hover {
+    color: rgb(142, 120, 0);
+    transform: scale(1.2);
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
